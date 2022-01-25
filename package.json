@@ -1,0 +1,47 @@
+{
+  "name": "webpack-react-refresh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server --config ./webpack/webpack.config.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "webpack": "^5.67.0",
+    "webpack-dev-server": "^4.7.3",
+    "webpack-cli": "^4.9.2",
+    "html-webpack-plugin": "^5.5.0",
+    "copy-webpack-plugin": "^10.2.1",
+    "eslint-webpack-plugin": "^3.1.1",
+    "webpack-manifest-plugin": "^4.1.1",
+    "react-refresh-typescript": "^2.0.3",
+    "webpack-merge": "^5.8.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
+    "react-refresh": "^0.11.0",
+    "file-loader": "^6.2.0",
+    "img-loader": "^4.0.0",
+    "circular-dependency-plugin": "^5.2.2",
+    "style-loader": "^3.3.1",
+    "sass-loader": "^12.4.0",
+    "css-loader": "^6.5.1",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^7.2.3",
+    "resolve-url-loader": "^5.0.0",
+    "typescript": "^4.5.5",
+    "@ts-tools/webpack-loader": "^3.0.2",
+    "mini-css-extract-plugin": "^2.5.3",
+    "postcss-normalize": "^10.0.1",
+    "source-map-loader": "^3.0.1",
+    "eslint": "^8.7.0"
+  }
+}
